@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#firstpage {
+    background: #F4EDDE;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#secpage {
+    background: #383E42;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.card {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+#titlename {
+    padding-top: 2.5%;
+    padding-left: 5%;
+    font-size: 250%;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+}
+
+#titlepro {
+    padding-left: 30%;
+    font-size: 250%;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+}
+
+#typed {
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+}
+
+#intro {
+    margin-top: 20%;
+    margin-left: 10%;
+    background: #ddc798;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    width: 40vh;
+    border-radius: 10%;
+}
+
+#epitech {
+    margin-top: 20%;
+    margin-left: 5%;
+    background: #ddc798;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    width: 40vh;
+    border-radius: 10%;
+}
+
+.titlecard {
+    font-size: 175%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+}
+
+#typedintro {
+    padding-left: 3%;
+    font-size: 125%;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+}
+
+#typedepi {
+    padding-left: 3%;
+    font-size: 125%;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+}
+
+#map {
+    height: 250%;
+    width: 10%;
+}
+
+#cardpdp {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+    border-radius: 50%;
+    height: 50%;
+    width: 22%;
+}
+
+#pdp {
+    border-radius: 50%;
+    height: 98%;
+    width: 98%;
+}
+
+#typedprojet {
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+}
+
+#sokocard {
+    background-color: #5E696F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 10%;
+    margin-left: 5%;
+    border-radius: 10%;
+    height: 75%;
+    width: 22%;
+}
+
+#sokoban {
+    background-color: #000;
+    border-radius: 10%;
+    margin-top: 7%;
+    margin-left: 10%;
+    height: 90%;
+    width: 80%;
+}
+
+#sokotitle {
+    font-size: 175%;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+}
+
+#sokodes {
+    padding-left: 3%;
+    font-size: 125%;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+}
+
+#portfoliocard {
+    background-color: #5E696F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 5%;
+    margin-left: 5%;
+    border-radius: 10%;
+    height: 90%;
+    width: 60%;
+}
+
+#portfoliodes {
+    padding-left: 3%;
+    font-size: 125%;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+}
+
+#portfolio {
+    background-color: #000;
+    border-radius: 2%;
+    margin-top: 2%;
+    margin-left: 10%;
+    height: 90%;
+    width: 80%;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio Tom Debout</title>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="src/styles.css">
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    </head>
+    <body>
+        <div id="firstpage">
+            <h1 id="titlename">Tom Debout: <span id="typed"></span></h1>
+            <div class="card">
+                <div id="intro">
+                    <h2 class="titlecard">Présentation</h2>
+                    <span id="typedintro"></span>
+                </div>
+                <div id="cardpdp">
+                    <img id="pdp" src="assets/pdp.jpg"/>
+                </div>
+                <div id="epitech">
+                    <h2 class="titlecard">Epitech</h2>
+                    <span id="typedepi"></span>
+                </div>
+            </div>
+        </div>
+        <div id="secpage">
+            <h1 id="titlepro">Projet: <span id="typedprojet"></span></h1>
+            <div class="card">
+                <div id="sokocard">
+                    <h2 id="sokotitle">Sokoban</h2>
+                    <p id="sokodes">Reproduction de célébre jeu Sokoban en langage C grace à la lib lncurse</p>
+                    <a href="https://github.com/EpitechIT2020/B-PSU-200-LYN-2-1-mysokoban-tom.debout">
+                        <img id="sokoban" src="assets/sokoban.png"/>
+                    </a>
+                </div>
+                <div id="portfoliocard">
+                    <h2 id="sokotitle">Portfolio React</h2>
+                    <p id="portfoliodes">Création d'un portfolio simple pour aborder le Reactjs</p>
+                    <a href="https://github.com/tomdebout/portfolio-react">
+                        <img id="portfolio" src="assets/portfolioreact.png"/>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <script>
+            var typed = new Typed('#typed', {
+                strings: ['Développeur front-end'],
+                typeSpeed: Math.floor(Math.random() * (300 - 50) + 50),
+                backSpeed: 50,
+                loop: true,
+            })
+            var intro = new Typed('#typedintro', {
+                strings: ['Je suis actuellement en première année à EPITECH Lyon PGE promo 2025, je suis passioné par le développement front-end mobile et web.'],
+                typeSpeed: 10,
+                showCursor: false,
+            })
+            var epitech = new Typed('#typedepi', {
+                strings: ['Excellence, solidarité et courage sont les valeurs d’Epitech, nous formons les dirigeant·e·s de demain, reconnu·e·s pour leur singularité, leur adaptabilité et leur capacité à faire grandir les autres.'],
+                typeSpeed: 10,
+                showCursor: false,
+            })
+            var projet = new Typed('#typedprojet', {
+                strings: ['Cliquez pour voir le projet'],
+                typeSpeed: Math.floor(Math.random() * (300 - 50) + 50),
+                backSpeed: Math.floor(Math.random() * (300 - 50) + 50),
+                loop: true,
+                showCursor: false,
+            })
+        </script>
+    </body>
+</html>
